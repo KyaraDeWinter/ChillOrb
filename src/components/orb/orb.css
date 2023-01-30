@@ -1,0 +1,34 @@
+.orbs{
+    display: flex;
+}
+
+.orb_01{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: rgb(0,255,178);
+    background: linear-gradient(117deg, rgba(0,255,178,1) 0%, rgba(128,0,255,1) 100%);
+    filter: blur(6px);
+    margin-left: -30px;
+}
+
+.orb_02{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background: rgb(240,5,245);
+    background: linear-gradient(132deg, rgba(240,5,245,1) 0%, rgba(214,241,49,1) 100%);
+    filter: blur(7px);
+    margin-left: 250px;
+    margin-top: -35px;
+}
+
+.orb_03{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background: rgb(240,5,245);
+    background: linear-gradient(132deg, rgba(240,5,245,1) 0%, rgba(103,49,241,1) 100%);
+    filter: blur(7px);
+    margin: 500px 0px 0px 600px;
+}

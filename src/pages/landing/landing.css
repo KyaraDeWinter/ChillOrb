@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,500&family=Tinos:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+.landing {
+    background-color: var(--background);
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.title{
+    padding-top: 70px;
+}
+
+.title_column{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title h1 {
+    font-size: 50px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.title_gradient{
+    background: rgb(0,255,178);
+    background: linear-gradient(90deg, rgba(0,255,178,1) 39%, rgba(128,0,255,1) 78%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.title p {
+    font-size: 25px;
+    margin-top: 40px;
+}

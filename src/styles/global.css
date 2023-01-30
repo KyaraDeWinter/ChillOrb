@@ -1,0 +1,12 @@
+:root{
+    --primair: #05F5B6;
+    --secundair: #6731F1;
+    --tertiair: #F005F5;
+    --background: #232323;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
