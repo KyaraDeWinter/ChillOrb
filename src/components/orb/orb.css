@@ -1,5 +1,8 @@
 .orbs{
     display: flex;
+    margin-top: -200px;
+    z-index: -1;
+    filter: blur(10px);
 }
 
 .orb_01{
@@ -8,7 +11,6 @@
     height: 400px;
     background: rgb(0,255,178);
     background: linear-gradient(117deg, rgba(0,255,178,1) 0%, rgba(128,0,255,1) 100%);
-    filter: blur(6px);
     margin-left: -30px;
 }
 
@@ -18,7 +20,6 @@
     height: 250px;
     background: rgb(240,5,245);
     background: linear-gradient(132deg, rgba(240,5,245,1) 0%, rgba(214,241,49,1) 100%);
-    filter: blur(7px);
     margin-left: 250px;
     margin-top: -35px;
 }
@@ -29,6 +30,5 @@
     height: 350px;
     background: rgb(240,5,245);
     background: linear-gradient(132deg, rgba(240,5,245,1) 0%, rgba(103,49,241,1) 100%);
-    filter: blur(7px);
     margin: 500px 0px 0px 600px;
 }

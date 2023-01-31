@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,500&family=Tinos:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
-.landing {
+.landing{
     background-color: var(--background);
     width: auto;
     height: 100vh;
@@ -10,17 +9,18 @@
 }
 
 .title{
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 .title_column{
     display: flex;
     justify-content: center;
     gap: 20px;
+    align-items: baseline;
 }
 
-.title h1 {
-    font-size: 50px;
+.title h1{
+    font-size: 60px;
     word-spacing: 5px;
     letter-spacing: 2px;
 }
@@ -33,7 +33,44 @@
     font-family: 'JetBrains Mono', monospace;
 }
 
-.title p {
+.title p{
     font-size: 25px;
     margin-top: 40px;
+}
+
+.coming_soon{
+    margin: auto;
+    padding: auto;
+    width: 100rem;
+    height: 50rem;
+    border-top-left-radius: 50rem;
+    border-top-right-radius: 50rem;
+    background: rgb(253,178,255);
+background: linear-gradient(209deg, rgba(253,178,255,1) 0%, rgba(161,0,164,1) 51%, rgba(43,21,97,1) 100%);
+}
+
+.soon{
+    font-size: 150px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    padding-top: 200px;
+}
+
+.button{
+    padding: 40px 140px 40px 140px;
+    border: none;
+    border-radius: 200px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    transition: .3s;
+    background-color: var(--background);
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+.button:hover{
+    background-color: var(--secundair);
 }

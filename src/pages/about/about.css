@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,500&family=Tinos:ital@1&display=swap');
+
+.about {
+    background-color: var(--background);
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.about_column{
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.about_gradient{
+    background: rgb(0,255,178);
+    background: linear-gradient(90deg, rgba(0,255,178,1) 39%, rgba(128,0,255,1) 78%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.about_text{
+    font-size: 20px;
+    width: 590px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+}
